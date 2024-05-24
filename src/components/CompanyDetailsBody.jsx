@@ -61,7 +61,7 @@ const CompanyDetailsBody = () => {
             </h3>
             <hr className="my-6 w-14" />
             <div>
-              <div className="pb-5 border-b group scroll-smooth">
+              <div className="pb-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Security Instrument</span>
                   <div className="flex gap-2 items-center text-right">
@@ -71,7 +71,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     Please see our{" "}
                     <a className="text-[#0049ff]" href="#">
@@ -81,7 +81,7 @@ const CompanyDetailsBody = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-5 border-b group scroll-smooth">
+              <div className="py-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Valuation cap</span>
                   <div className="flex gap-2 items-center text-right">
@@ -91,7 +91,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     The maximum valuation at which your investment converts into
                     equity shares or cash.
@@ -102,7 +102,7 @@ const CompanyDetailsBody = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-5 border-b group scroll-smooth">
+              <div className="py-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Interest Rate</span>
                   <div className="flex gap-2 items-center text-right">
@@ -112,7 +112,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     The interest rate is the percentage that the investor will
                     earn on the note until it matures or is converted into
@@ -120,7 +120,7 @@ const CompanyDetailsBody = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-5 border-b group scroll-smooth">
+              <div className="py-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Maturity</span>
                   <div className="flex gap-2 items-center text-right">
@@ -130,14 +130,14 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     The maturity date is the date on which the note must be
                     repaid, either with interest or converted into equity.
                   </p>
                 </div>
               </div>
-              <div className="py-5 border-b group scroll-smooth">
+              <div className="py-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Minimum investment</span>
                   <div className="flex gap-2 items-center text-right">
@@ -147,7 +147,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     The smallest investment amount that Supersapiens is
                     accepting.
@@ -158,7 +158,7 @@ const CompanyDetailsBody = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-5 border-b group scroll-smooth">
+              <div className="py-5 border-b group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Maximum investment</span>
                   <div className="flex gap-2 items-center text-right">
@@ -168,7 +168,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     The largest investment amount that Supersapiens is
                     accepting.
@@ -179,7 +179,7 @@ const CompanyDetailsBody = () => {
                   </p>
                 </div>
               </div>
-              <div className="py-5 group scroll-smooth">
+              <div className="py-5 group transition-all">
                 <div className="flex justify-between">
                   <span className="text-[#333]">Deadline</span>
                   <div className="flex gap-2 items-center text-right">
@@ -189,7 +189,7 @@ const CompanyDetailsBody = () => {
                     <i className="fa-solid fa-circle-info text-[#222]"></i>
                   </div>
                 </div>
-                <div className="mt-2 mb-2 hidden group-hover:block scroll-smooth">
+                <div className="mt-2 mb-2 max-h-0 overflow-hidden group-hover:max-h-[500px] transition-all">
                   <p className="text-xs text-[#333]">
                     Supersapiens needs to reach their minimum funding goal
                     before the deadline (March 4, 2024 at 1:29 PM IST). If they
